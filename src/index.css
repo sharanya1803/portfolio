@@ -26,18 +26,19 @@ body {
     margin-right: 6px;
 }
 
+/* Desktop */
 body {
     font-size: 18px;
 }
 
-
+/* Tablet */
 @media (max-width: 768px) {
     body {
         font-size: 16px;
     }
 }
 
-
+/* Mobile */
 @media (max-width: 480px) {
     body {
         font-size: 14px;
