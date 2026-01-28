@@ -1,0 +1,73 @@
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #303232;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.title {
+    position: relative;
+}
+
+.title h1 {
+    padding: 0px 30px;
+    font-size: 47px;
+    font-weight: 600;
+}
+
+.about-section {
+    display: flex;
+    gap: 80px;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-skill {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.about-skill p {
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about-skill hr {
+    border: none;
+    height: 6px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102%);
+    border-radius: 50px;
+}

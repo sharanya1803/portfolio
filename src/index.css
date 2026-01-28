@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background: #050300;
+    color: white;
+    font-family: 'outfit';
+}
+
+.mail-icon {
+    font-size: 18px;
+    margin-right: 6px;
+    color: white;
+}
+
+.location-icon {
+    font-size: 18px;
+    margin-right: 6px;
+}
+
+.phone-icon {
+    font-size: 18px;
+    margin-right: 6px;
+}
