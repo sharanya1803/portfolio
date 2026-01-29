@@ -30,6 +30,7 @@ const navbar = () => {
                 <a href="#contact">Connect with Me</a>
             </div>
         </div>
+       
     )
 }
 
