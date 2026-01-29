@@ -11,8 +11,8 @@ const hero = () => {
             <h1><span>I'am Sharanya Kumari</span></h1>
             <p>I am a motivated student who loves learning new technologies and building responsive, user-friendly applications</p>
             <div className="hero-action">
-                <div className='hero-connect'>
-                    Connect with me
+                <div className='hero-connect'><a href="#contact">Connect with Me</a>
+
                 </div>
                 <a
                     href={resume}

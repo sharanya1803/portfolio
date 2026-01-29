@@ -56,6 +56,8 @@
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.00%);
     cursor: pointer;
+    ;
+    scroll-behavior: smooth;
 }
 
 .hero-resume {
@@ -80,4 +82,9 @@
         margin-bottom: 120px;
     }
 
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }

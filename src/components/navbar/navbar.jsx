@@ -27,7 +27,7 @@ const navbar = () => {
                 <li><p>Contact</p></li>
             </ul>
             <div className='navconnect'>
-                connect with me
+                <a href="#contact">Connect with Me</a>
             </div>
         </div>
     )

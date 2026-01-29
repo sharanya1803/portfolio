@@ -15,10 +15,12 @@ const footer = () => {
 
 
                     </div>
-                    <div className='subscribe'>
-                        Subscribe
-
+                    <div className="subscribe">
+                        <button onClick={() => alert("Thanks for connecting! We'll reach out soon 🚀")}>
+                            Subscribe
+                        </button>
                     </div>
+
                 </div>
             </div>
             <hr />
