@@ -7,6 +7,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
 }
+
 .about {
     display: flex;
     flex-direction: column;
@@ -70,4 +71,30 @@
     height: 6px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102%);
     border-radius: 50px;
+}
+
+@media(max-width:768px) {
+    .about {
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+
+    }
+
+    .title h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .about-skill {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .about-skill p {
+        font-size: 30px;
+
+    }
+
+
 }

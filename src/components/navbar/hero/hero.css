@@ -74,3 +74,10 @@
 .hero-resume:hover {
     border-color: #B415FF;
 }
+
+@media(max-width:768px) {
+    .hero {
+        margin-bottom: 120px;
+    }
+
+}
